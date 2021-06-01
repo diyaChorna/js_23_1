@@ -1,0 +1,41 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.all{
+      height: 930px;
+      padding-top: 5%;
+}
+.telephone{
+      width: 20%;
+      height: 75%;
+      background: linear-gradient(red, rgb(255, 238, 0), rgb(0, 206, 52));
+      border: 15px solid rgb(92, 90, 90);
+      border-radius: 60px;
+      margin-left: 40%;
+}
+.red{
+      width: 100%;
+      height: 100%;
+      background: black;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      display: none;
+}
+.number{
+      font-size: 90px;
+      position: absolute;
+      top: 35%;
+      left:49%;
+}
+.min{
+      font-size: 40px;
+      position: absolute;
+      top: 45%;
+      left: 47.5%;
+}
+.number, .min{
+      position: absolute;
+      color: white;
+}
